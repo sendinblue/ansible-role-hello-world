@@ -2,7 +2,7 @@
 galaxy_info:
   author: sendinblue
   role_name: hello_world
-  description: A boilerplate Ansible Role with the integration of Molecule testing framework and Ansible Galaxy.
+  description: A boilerplate Ansible Role with the integration of Molecule testing framework, Ansible Galaxy and Travis CI.
   company: Sendinblue GmbH
   issue_tracker_url: https://github.com/sendinblue/ansible-role-hello-world/issues
   license: MIT

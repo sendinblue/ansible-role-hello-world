@@ -6,7 +6,7 @@
 
 # Ansible Role: Hello World
 
-A boilerplate Ansible Role with the integration of [Molecule](https://molecule.readthedocs.io/en/latest/) testing framework and [Ansible Galaxy](https://galaxy.ansible.com/).
+A boilerplate Ansible Role with the integration of [Molecule](https://molecule.readthedocs.io/en/latest/) testing framework, [Ansible Galaxy](https://galaxy.ansible.com/) and [Travis CI](https://travis-ci.org/).
 
 ## Role Variables
 
