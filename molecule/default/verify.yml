@@ -1,0 +1,12 @@
+---
+- name: Verify
+  hosts: all
+  tasks:
+    - name: Find out what the remote machine's mounts are
+      slurp:
+        src: "{{ test_hello_world_dir }}/hello_world.txt"
+      register: hello_world_file
+    - name: Verify file content
+      assert:
+        that:
+          - hello_world_message in (hello_world_file.content | b64decode)
